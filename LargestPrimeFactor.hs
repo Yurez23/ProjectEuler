@@ -41,3 +41,6 @@ largestPrimeFactor' n
 6857
 6857
 -}
+
+answer :: Integer
+answer = largestPrimeFactor' 600851475143
