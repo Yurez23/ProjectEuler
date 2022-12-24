@@ -4,7 +4,6 @@ we can see that the 6th prime is 13.
 
 What is the 10 001st prime number?
 -}
-import Data.Array
 
 nthPrime :: Int -> Integer
 nthPrime n = primes !! (n - 1)
